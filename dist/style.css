@@ -39,6 +39,10 @@ div.section {
   div.section h1 {
     font-weight: 700;
     font-size: 48px; }
+  div.section h2 {
+    text-align: center; }
+    div.section h2:first-of-type {
+      margin-top: 30px; }
   div.section div.tech-wrap {
     display: flex;
     flex-direction: row;
@@ -50,6 +54,32 @@ div.section {
       padding: 15px; }
       div.section div.tech-wrap div.img-wrap img {
         width: 100%; }
+  div.section form {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: auto;
+    padding: 30px 0px; }
+    div.section form input[type="text"], div.section form input[type="email"], div.section form textarea {
+      display: block;
+      margin-bottom: 15px;
+      max-width: 300px;
+      width: 100%;
+      border: none;
+      border-bottom: 1px solid #CBCBCB;
+      font-size: 18px;
+      padding: 5px; }
+    div.section form textarea {
+      height: 100px; }
+    div.section form input[type="submit"] {
+      display: block;
+      width: 300px;
+      padding: 10px;
+      background: #1F4A8B;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 24px; }
 
 body {
   height: 100vh;

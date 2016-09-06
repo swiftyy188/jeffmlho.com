@@ -4,6 +4,12 @@ div.section {
     font-weight: 700;
     font-size: 48px;
   }
+  h2 {
+    text-align: center;
+    &:first-of-type {
+      margin-top: 30px;
+    }
+  }
   div.tech-wrap {
     display: flex;
     flex-direction: row;
@@ -16,6 +22,36 @@ div.section {
       img {
         width: 100%;
       }
+    }
+  }
+  form {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: auto;
+    padding: 30px 0px;
+    input[type="text"], input[type="email"], textarea {
+      display: block;
+      margin-bottom: 15px;
+      max-width: 300px;
+      width: 100%;
+      border: none;
+      border-bottom: 1px solid $g3;
+      font-size: 18px;
+      padding: 5px;
+    }
+    textarea {
+      height: 100px;
+    }
+    input[type="submit"] {
+      display: block;
+      width: 300px;
+      padding: 10px;
+      background: $b1;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 24px;
     }
   }
 }
