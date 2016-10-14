@@ -1,0 +1,26 @@
+html{
+	color: white;
+}
+body{
+	background-image: url("http://www.stormlake.org/ImageRepository/Document?documentID=1221");
+	opacity: 5;
+}
+
+div.overlay {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	z-index: -1;
+}
+
+h1.title {
+	font-size: 100px;
+	text-align: center;
+}
+.enter {
+	font-size: 50px;
+	text-align: center;
+}
